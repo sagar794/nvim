@@ -6,9 +6,9 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.opt.clipboard:prepend { "unnamed", "unnamedplus" }
+vim.opt.clipboard:prepend({ "unnamed", "unnamedplus" })
 
-vim.opt.smartindent =  true
+vim.opt.smartindent = true
 
 vim.opt.wrap = false
 
@@ -27,4 +27,3 @@ vim.opt.scrolloff = 8
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "100"
-
